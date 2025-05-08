@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Sentence {
+public class SpellChecker {
 
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
