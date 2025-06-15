@@ -3,3 +3,8 @@ I'm deciding to make a mini editing program that checks for extra spaces and so 
 
 - May 7 2025
 Uploaded existing code
+
+- June 15 2025
+Fixed the code where it now accepts a file filled with text rather than pasting a paragraph. Just needs to use the command prompt
+  Javac Spellchecker.Java
+  Java Spellchecker (filename)
