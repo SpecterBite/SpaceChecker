@@ -2,16 +2,26 @@ import java.util.Scanner;
 public class SpellChecker {
 
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
-        
-  
-        long counterender = 0;
-        long counterletters = 0;
-        long counterspaces = 0;
-        int i = 0;
-        int treedot = 0;
-        System.out.println("Please paste your paragraph here.");
-        String para = scnr.nextLine();
+            File file = new File(args[0]); // Pretty much makes it so you pass the file the program will read
+      FileReader reader = new FileReader(args[0]);
+      Scanner scnr = new Scanner(reader);         // Actually reads said file
+     
+      long counterender = 0; 
+      long counterletters = 0;
+      long counterspaces = 0;
+      int i = 0, treedot = 0, kiwi = 0;
+      // Counts special characters in the file
+      String q = scnr.next();
+      while (scnr.hasNext()){ 
+        q = scnr.next();
+      System.out.print(q +" ");
+      kiwi++;
+      System.out.println(kiwi);
+      } // Tracks total letters
+      
+      System.out.println(kiwi);
+        System.exit(0);
+
         for (i = 0; i <= para.length() - 1; i++){
           char ender = para.charAt(i);
           counterletters++;
