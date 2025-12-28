@@ -12,4 +12,4 @@ Fixed the code where it now accepts a file filled with text rather than pasting 
   Java Spellchecker (filename)
 
 - December 26 2025
-Revisiting 
+Revisiting this old project
