@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SpellChecker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="background-color: gray;">
+    <header>
+      <h1>SpellChecker</h1>
+      <button id="openBtn">Open file</button>
+    </header>
+
+    <main>
+      <p>Welcome to SpellChecker!</p>
+      <div class="meta">
+        <div><strong>File:</strong> <span id="filePath">None</span></div>
+        <div><strong>Words:</strong> <span id="wordCount">0</span></div>
+        
+      </div>
+
+      <textarea id="editor" placeholder="Paste or open your manuscript..."></textarea>
+    </main>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
