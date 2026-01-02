@@ -13,3 +13,6 @@ Fixed the code where it now accepts a file filled with text rather than pasting 
 
 - December 26 2025
 Revisiting this old project
+
+- January 1 2026
+Adding code for the basic structure
